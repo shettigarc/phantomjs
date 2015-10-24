@@ -128,11 +128,11 @@ For details, please go the the web site: http://phantomjs.org/download.html.
 
 EOF
 
-    echo "Do you want to continue (y/n)?"
-    read continue
-    if [[ "$continue" != "y" ]]; then
-        exit 1
-    fi
+    # echo "Do you want to continue (y/n)?"
+    # read continue
+    #if [[ "$continue" != "y" ]]; then
+    #    exit 1
+    #fi
     echo
     echo
 fi
